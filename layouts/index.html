@@ -1,7 +1,11 @@
 {{define "main"}}
 
-<h1>
-    {{ .Title }}
-</h1>
+<div id="main">
+    {{ partial "explore.html" . }}
+    {{ partial "detail.html" . }}
+    {{ partial "getToKnow.html" . }}
+    {{ partial "cards.html" .}}
+</div>
+
 
 {{end}}

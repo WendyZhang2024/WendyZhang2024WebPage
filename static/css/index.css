@@ -1,0 +1,51 @@
+body {
+  /* remove default margin */
+  margin: 0 !important;
+  background-color: #CFEAC7;
+}
+
+header {
+  background-color: #A7C4A3;
+  padding-left: 1vw;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+header h1 {
+  margin-left: 1vw;
+}
+
+header img {
+  width: 5vw;
+}
+
+/* set hr color to black */
+hr {
+  margin: 5px 0 5px 0;
+  border: 1px solid black
+}
+
+#main div {
+  height: 100vh;
+  padding: 0 1vw 0 1vw;
+}
+
+#explore {
+  font-size: 64px;
+}
+
+#detail {
+  font-size: 64px;
+  background-color: #A7C4A3;
+}
+
+#toKnow {
+  background-color: blue;
+  height: 50vh !important;
+}
+
+#cards {
+  background-color: green;
+  height: 75vh !important;
+}
