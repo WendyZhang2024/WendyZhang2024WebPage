@@ -42,7 +42,7 @@ hr {
 
 #toKnow {
   padding: 0 !important;
-  height: 50vh !important;
+  height: 70vh !important;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 100%;
