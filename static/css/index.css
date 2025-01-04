@@ -35,12 +35,17 @@ hr {
   font-size: 64px;
 }
 
+#exploreDetail{
+  font-size: 32px;
+}
+
 #detail {
   font-size: 64px;
   background-color: #A7C4A3;
 }
 
 #detailContent {
+  height: auto;
   display: flex;
   justify-content: center;
 }
