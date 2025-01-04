@@ -40,6 +40,16 @@ hr {
   background-color: #A7C4A3;
 }
 
+#detailContent {
+  display: flex;
+  justify-content: center;
+}
+
+#detailContent img{
+  padding-top: 5%;
+  height: 70%;
+}
+
 #toKnow {
   padding: 0 !important;
   height: 70vh !important;
