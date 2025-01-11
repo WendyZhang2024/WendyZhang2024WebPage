@@ -26,6 +26,10 @@ hr {
   border: 1px solid black
 }
 
+:is(h1, h2, h3, h4, p, .text-balance) {
+  text-wrap: balance;
+}
+
 #main div {
   height: 100vh;
   padding: 0 1vw 0 1vw;
@@ -88,7 +92,7 @@ hr {
   color: #fff;
 }
 
-#subTitle{
+#uniqueTitle {
   height: 12vh !important;
   font-size: 56px;
   background-color: #A7C4A3;
@@ -99,21 +103,54 @@ hr {
   justify-content: center;
 }
 
-#cards {
+#uniqueCards {
   background-image: url('/image/cardBackground.avif');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100% 100%;
+  
   height: 75vh !important;
-
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#cards div {
+#uniqueCards div {
+  border-radius: 7px;
   height: 75%;
   width: 20%;
   background-color: #A7C4A3;
   margin: 10px 10px 10px 10px;
+}
+
+#advantagesTitle {
+  height: 12vh !important;
+  font-size: 56px;
+  background-color: #A7C4A3;
+  width: inherit;
+  padding: 50px 0 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#advantagesCards {
+  height: 75vh !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#advantagesCards div {
+  border-radius: 7px;
+  height: 75%;
+  width: 20%;
+  background-color: #A7C4A3;
+  margin: 10px 10px 10px 10px;
+}
+#advantagesCards div h3{
+  margin: 40px 40px 10px 40px;
+}
+#advantagesCards div p {
+  margin: 10px 40px 10px 40px;
 }
