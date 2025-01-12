@@ -59,11 +59,16 @@ hr {
 #detailContent {
   height: auto;
   display: flex;
-  justify-content: center;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+#detailContent h3{
+  margin: 0 !important;
 }
 
 #detailContent img{
-  padding-top: 5%;
+  /* padding-top: 5%; */
   height: 70%;
 }
 
