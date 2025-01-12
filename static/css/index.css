@@ -26,7 +26,7 @@ hr {
   border: 1px solid black
 }
 
-:is(h1, h2, h3, h4, p, .text-balance) {
+:is(h1, h2, h3, h4, p) {
   text-wrap: balance;
 }
 
@@ -117,10 +117,14 @@ hr {
 
 #uniqueCards div {
   border-radius: 7px;
-  height: 75%;
-  width: 20%;
+  height: 65%;
+  width: 13%;
   background-color: #A7C4A3;
   margin: 10px 10px 10px 10px;
+}
+
+#uniqueCards div h3 {
+ height: 10%;
 }
 
 #advantagesTitle {
