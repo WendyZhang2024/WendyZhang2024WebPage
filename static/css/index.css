@@ -2,6 +2,7 @@ body {
   /* remove default margin */
   margin: 0 !important;
   background-color: #CFEAC7;
+  font-family: "Times New Roman", Times, serif;
 }
 
 header {
@@ -27,7 +28,7 @@ hr {
 }
 
 :is(h1, h2, h3, h4, p) {
-  text-wrap: balance;
+  text-wrap: pretty;
 }
 
 #main div {
@@ -36,11 +37,18 @@ hr {
 }
 
 #explore {
+  background-image: url('/image/background.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
   font-size: 64px;
+
 }
 
 #exploreDetail{
-  font-size: 32px;
+  display: flex;
+  align-items: center;
+  font-size: 56px;
 }
 
 #detail {
@@ -157,4 +165,15 @@ hr {
 }
 #advantagesCards div p {
   margin: 10px 40px 10px 40px;
+}
+
+#team {
+  background-color: #c6e7cd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#team img {
+  height: 100%;
 }
